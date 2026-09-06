@@ -79,7 +79,7 @@ breakMusic = { }
     midiInstrument = "electric piano 1"
   } <<
     \startBar
-    \new Staff "soprano" \with {
+    \new Staff = "soprano" \with {
       instrumentName = "Soprano"
       \staffOpts \sopranoRole
     } { \new Voice = "soprano" { \clef treble \timeScore \keyScore \sopranoMusic } }
