@@ -20,6 +20,8 @@ keyScore = \key c \major
 timeScore = \time 4/4
 midiTempo = \tempo 2 = 120
 startBar = \set Score.currentBarNumber = #1
+staffScale = #'(1 0.75 1 0.75 2 0.85)
+lyricsScale = #'(1 0.85)
 %{ end misc %}
 
 %{ set main and secondary voices; main staves are normal sized with thicker
